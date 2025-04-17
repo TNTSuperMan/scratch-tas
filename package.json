@@ -1,0 +1,27 @@
+{
+  "name": "scratch-tas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "preact": "^10.26.2",
+    "scratch-audio": "^2.0.88",
+    "scratch-parser": "^6.0.0",
+    "scratch-render": "^2.0.213",
+    "scratch-storage": "^4.0.73",
+    "scratch-svg-renderer": "^3.0.77",
+    "scratch-vm": "^5.0.211"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "@turbowarp/types": "^0.0.13",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}

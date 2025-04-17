@@ -1,0 +1,18 @@
+canvas{
+    border: 1px #000 solid;
+    position: fixed;
+}
+.histories{
+    float: right;
+}
+.history{
+    border: 1px #000 solid;
+    margin: 5px;
+    padding: 2px;
+}
+input[type=number]{
+    width: 50px;
+}
+.key input{
+    display: block;
+}
